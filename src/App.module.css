@@ -8,7 +8,9 @@ h3 {
     margin: 0;
 }
 
-
+.card {
+    height: 120px;
+}
 
 .main {
     display: flex;
@@ -25,8 +27,14 @@ h3 {
 .dealer{
     width: 400px;
     height: 150px;
-    background-color: white;
+    /* background-color: white; */
     margin-top: 10px;
+}
+
+.dealercards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .blackjack_title {
@@ -66,10 +74,12 @@ h3 {
 .playercards {
     width: 600px;
     height: 150px;
-    background-color: white;
+    /* background-color: white; */
     align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
-
 .playerbets {
     display: flex;
     flex-direction: column;
@@ -86,8 +96,11 @@ h3 {
 }
 
 .playerMoney .money {
-    margin-left: 30px;
     font-weight: bold;
+}
+
+.playerMoney .inputMoney {
+    width: 100px;
 }
 
 .playerMoney .betMoney {
