@@ -17,7 +17,7 @@ h3 {
     flex-direction: column;
     background-color: rgb(13, 41, 13);
     width: 800px;
-    height: 800px;
+    height: 900px;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
     border: 10px solid rgb(85, 51, 0);
@@ -26,9 +26,14 @@ h3 {
 
 .dealer{
     width: 400px;
-    height: 150px;
+    height: 170px;
     /* background-color: white; */
     margin-top: 10px;
+}
+
+.dealerValue {
+    display: flex;
+    justify-content: center;
 }
 
 .dealercards {
@@ -69,6 +74,10 @@ h3 {
     flex-direction: column;
     align-items: center;
     margin-top: 100px;
+}
+
+.cardsOnTable {
+    margin: 10px 10px;
 }
 
 .playercards {
@@ -140,4 +149,15 @@ h3 {
 
 .calls .stand:hover {
     background-color: red;
+}
+
+
+.gameAlert {
+    display: flex;
+    position: absolute;
+    font-size: 32px;
+    align-items: center;
+    justify-content: center;
+    width: 470px;
+    color: rgba(255, 255, 255, 0.61);
 }
